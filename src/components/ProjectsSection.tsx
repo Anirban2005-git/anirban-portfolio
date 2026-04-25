@@ -47,26 +47,27 @@ const ProjectsSection = () => {
         >
           <div className="glass rounded-2xl overflow-hidden group">
             {/* Project header / image area */}
-            <div className="relative h-56 md:h-64 bg-gradient-to-br from-primary/15 via-secondary/10 to-primary/5 flex items-center justify-center overflow-hidden">
-              {/* Decorative grid */}
-              <div
-                className="absolute inset-0 opacity-[0.06]"
-                style={{
-                  backgroundImage: `linear-gradient(hsl(230 80% 60% / 0.5) 1px, transparent 1px), linear-gradient(90deg, hsl(230 80% 60% / 0.5) 1px, transparent 1px)`,
-                  backgroundSize: "40px 40px",
-                }}
+            <div className="relative h-72 md:h-96 overflow-hidden bg-slate-900">
+              <img
+                src="https://i.postimg.cc/8p0ZVtWD/jayda-mandir-jamshedpur-jharkhand-1-attr-hero.jpg?dl=1"
+                alt="Jharkhand Tourism Website screenshot"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
+              <div className="absolute inset-0 bg-black/20" />
               <motion.div
-                initial={{ scale: 0.8, opacity: 0 }}
+                initial={{ scale: 0.95, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
-                className="relative z-10 flex flex-col items-center gap-3"
+                className="relative z-10 flex h-full flex-col items-center justify-center gap-4 text-center px-4"
               >
-                <div className="w-20 h-20 rounded-2xl bg-primary/10 glass flex items-center justify-center">
-                  <Globe className="text-primary" size={40} />
-                </div>
-                <span className="text-xs font-display text-primary/60 tracking-widest uppercase">Tourism Platform</span>
+                <span className="text-xs font-display text-primary/70 tracking-widest uppercase">Tourism Platform</span>
+                <h3 className="text-white font-display text-xl md:text-3xl font-semibold tracking-tight drop-shadow-lg">
+                  Jharkhand Tourism Website
+                </h3>
+                <p className="max-w-xl text-sm text-slate-100/90 leading-relaxed">
+                  Real tourism branding for Jharkhand with an immersive UI preview from the actual project image.
+                </p>
               </motion.div>
 
               {/* Floating decorative elements */}
