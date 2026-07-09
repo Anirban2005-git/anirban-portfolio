@@ -135,7 +135,7 @@ const ProjectsSection = () => {
                   className="border-primary/40 text-foreground hover:bg-primary/10 gap-2 rounded-xl hover:border-primary/70 transition-all"
                   asChild
                 >
-                  <a href="https://github.com/Anirban2005-git" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Anirban2005-git/jharkhand-tourism.in" target="_blank" rel="noopener noreferrer">
                     <Github size={16} /> GitHub
                   </a>
                 </Button>
