@@ -42,7 +42,7 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a href="/anirban_resume.pdf" download>
+          <a href="/anirban_resume(1)(1).pdf" download>
             <Button size="sm" className="bg-primary hover:bg-primary/80 text-primary-foreground gap-2">
               <Download size={16} />
               Resume
@@ -70,7 +70,7 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a href="/anirban_resume.pdf" download>
+          <a href="/anirban_resume(1)(1).pdf" download>
             <Button size="sm" className="bg-primary hover:bg-primary/80 text-primary-foreground gap-2 w-fit">
               <Download size={16} />
               Resume
